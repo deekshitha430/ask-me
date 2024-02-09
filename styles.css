@@ -41,10 +41,10 @@ body{
 } 
 
 .img1 {
-    width: 175px;
+    width: 200px;
 }
 .img2{
-    width: 250px;
+    width: 275px;
 }
 
 .btn{
@@ -52,7 +52,7 @@ body{
     top: calc(100% - 5rem);
     min-width: 120px;
     padding: .75rem 1rem;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     outline: none;
     border: none;
     background-color: #53dce8;
@@ -70,9 +70,11 @@ body{
 
 .btn-yes{
     left: 20%;
+    /* transition: all 0.5s ease; */
     transform: translateX(calc(100% -1rem));
     z-index: 1;
 }
+
 .btn-no{
     left: calc(50% + 4rem);
     transition: all 0.5s ease;
