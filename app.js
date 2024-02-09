@@ -32,7 +32,9 @@ btnNo.addEventListener("mouseover", (e)=>{
 });
 
 btnYes.addEventListener("click", (e) =>{
+    btnYes.classList.add("hide");
     btnNo.classList.add("hide");
     imageOne.classList.add("hide")
     imageTwo.classList.remove("hide")
+    document.getElementById("message").classList.remove("hide");
 });

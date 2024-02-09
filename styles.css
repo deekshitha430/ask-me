@@ -11,7 +11,7 @@ body{
     padding: 2rem ;
     width: 100%;
     min-height: 100vh;
-    background-image: linear-gradient(to right bottom,#eddbf4, #e59fec);
+    background-image: linear-gradient(to right bottom,#eddbf4, #f6bdfc);
     display: flex;
     flex-direction: column;
 }
@@ -60,6 +60,7 @@ body{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     cursor: pointer;
     transition: 0.3s;
+
     /* color: white; */
 }
 
@@ -79,4 +80,25 @@ body{
     left: calc(50% + 4rem);
     transition: all 0.5s ease;
     z-index: 1;
+}
+
+#message{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 5rem;
+    color: #800000;
+    padding-top: 30vh;
+    padding-left: 20vw;
+}
+@media screen and (min-width: 1200px) {
+    .btn-yes {
+        top: 65%; /* Adjust the vertical position for larger screens */
+        left: 35%; /* Adjust the horizontal position for larger screens */
+    }
+}
+@media screen and (min-width: 1200px) {
+    #message {
+        font-size: 8rem; /* Increase font size for larger screens */
+        padding-top: 25vh; /* Adjust padding top for larger screens */
+        padding-left: 20vw; /* Adjust padding left for larger screens */
+    }
 }
